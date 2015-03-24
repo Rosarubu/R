@@ -12,4 +12,6 @@ We can store the table as a data frame in R using
 
 `test=dbGetQuery(conn,"select * from  mdl_user") `
 or 
-`test=dbReadTable(conn,"mdl_user")
+`test=dbReadTable(conn,"mdl_user")`
+
+next step is dealing with all data frame
