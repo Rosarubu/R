@@ -1,4 +1,4 @@
-#connect MySQL using R & other simple commands
+###connect MySQL using R & other simple commands
 ```
 library(DBI)
 library(RMySQL)
