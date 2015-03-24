@@ -1,2 +1,2 @@
 # R
-for eleaning data process
+for elearning data process
