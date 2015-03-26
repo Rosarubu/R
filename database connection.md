@@ -3,6 +3,7 @@
 library(DBI)
 library(RMySQL)
 conn=dbConnect(MySQL(),user='root',password='',host='',dbname='moodle')
+dbDisconnect(conn) #disconnect
 dbGetQuery(conn,"show databases") # dbGetQuery(conn, "a character vector of length 1 containing SQL", ...)
 
 dbListTables(conn) #show tables from database
