@@ -17,3 +17,7 @@ or
 `test=dbReadTable(conn,"mdl_user")`
 
 next step is dealing with all data frame
+```
+Select mdl_user.*,mdl_role _assignments.roleid from mdl_user join
+mdl_role _assignments on mdl_user.id=mdl_role _assignments.userid
+```
