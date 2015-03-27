@@ -43,5 +43,6 @@ head(test,1) # first two rows
 
 summary  `summary(test)`
 
+remove dataframe  `remove(test)`
 
 
